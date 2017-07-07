@@ -108,9 +108,8 @@ text-transform: uppercase;
   -ms-flex-align:center;
   align-items:center;
   background: rgba(0,0,0,0.5);
-    z-index: 100;
+  z-index: 100;
 /*//  background: #D7DADB;*/
-  color: #fff;
   padding: 10px;
 }
 .toggle{
@@ -119,18 +118,21 @@ text-transform: uppercase;
   flex-basis:25%;
   background: none;
   color: #6DBCDB;
-    z-index: 100;
+  z-index: 100;
 }
 .toggle i{
   margin-right: 5px;
 }
 .name{
   letter-spacing: 1.5px;
+  font-size: 19px;
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   padding: 10px 25px;
-  color: #6DBCDB;
+  color: #fff;
+  z-index: 100;
+  cursor: pointer;
 }
 /* ********** Home section css ********* */
 header{
@@ -227,13 +229,14 @@ header{
 }
 .sub_title h2 {
   text-transform: uppercase;
-  font-size: 45px;
+  font-size: 35px;
   font-weight: 900;
   padding: 10px 10px;
 }
 .sub_title p{
     padding: 10px 20px;
     font-weight: 300;
+    font-size: 14px;
 }
 .service_item{
   display: -webkit-box;
@@ -279,10 +282,14 @@ header{
     background-attachment: fixed;
     clip-path: polygon(0 0, 100% 0%, 100% 94%, 0% 100%);
 }
+#portfolio{
+     background:radial-gradient(circle,#414167,#282840);
+     margin-top:-80px;
+     padding-top: 60px;
+     color: #f2f2f2;
+}
 .portfolio{
-  background: #225378;
   padding: 50px  0;
-  color: #f2f2f2;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -399,7 +406,7 @@ header{
       padding: 20px 40px;
     }
     #portfolio{
-      /*background:radial-gradient(circle,#414167,#282840);*/
+      background:radial-gradient(circle,#414167,#282840);
       padding-top: 40px;
     }
   .portfolio{
