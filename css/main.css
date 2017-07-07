@@ -25,12 +25,15 @@ a{
    color: #6DBCDB;
   display: inline-block;
   width: 100%;
-  background: rgba(0,0,0,0.5);
-  padding: 20px 30px ;
   text-align: center;
   letter-spacing: 1.5px;;
   -webkit-transition:all 0.3s ease-in-out;;
   transition:all 0.3s ease-in-out;
+}
+.nav__link{
+padding: 20px 30px ;
+display: inline-block;
+  background: rgba(0,0,0,0.5);
 }
 ul{
   list-style: none;
@@ -55,6 +58,7 @@ text-transform: uppercase;
   -webkit-box-flex:1;
   -ms-flex:1 1 50%;
   flex:1 1 50%;
+  z-index: 100;
 }
 .nav_ul .social{
   -ms-flex-preferred-size:25%;
@@ -130,7 +134,7 @@ text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   padding: 10px 25px;
-  color: #fff;
+  color: #6DBCDB;
   z-index: 100;
   cursor: pointer;
 }
@@ -179,6 +183,7 @@ header{
 .hero p{
   width: 80%;
   margin: 20px auto;
+  font-size: 16px;
 }
 /* ========Main btn====== */
 .main_btn{
@@ -186,7 +191,7 @@ header{
   background: inherit;
   width: auto;
   color: #b3b3b3;
-  padding: 5px 10px;
+  padding: 5px 15px;
   border: 1px solid #6DBCDB;
   border-radius: 3px;
   -webkit-transition: all 0.5s ease-in-out;
@@ -213,12 +218,17 @@ header{
   padding: 10px 5px ;
 /*//text-align: right;*/
   font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 140%;
   -webkit-box-shadow: 0 0 10px 2px rgba(0,0,0,0.3) ;
   box-shadow: 0 0 10px 2px rgba(0,0,0,0.3) ;
 }
+#service{
+padding-bottom: 60px;
+}
 .service{
   max-width: 965px;
-  margin:80px auto 0;
+  margin:0 auto ;
   text-align: center;
   color: #222;
 }
@@ -232,6 +242,7 @@ header{
   font-size: 35px;
   font-weight: 900;
   padding: 10px 10px;
+  font-family:'Roboto', sans-serif;
 }
 .sub_title p{
     padding: 10px 20px;
@@ -253,21 +264,23 @@ header{
   width: 100%;
   padding: 10px 5px;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 .item_service h4{
   font-weight: normal;
-  font-size: 25px;
+  font-size: 20px;
   padding: 20px 0;
 }
 .item_service span {
-  font-size: 60px;
+  font-size: 40px;
   color: #225378;
   border: 1px solid #225378;
-  border-radius: 50%;padding: 10px 20px;
+  border-radius: 50%;
+  padding: 10px 20px;
 }
 .item_service  p {
   color: #555;
+  font-size: 16px;
 }
 /* ========= Portfolio section=====••• */
 #about{
@@ -283,10 +296,10 @@ header{
     clip-path: polygon(0 0, 100% 0%, 100% 94%, 0% 100%);
 }
 #portfolio{
-     background:radial-gradient(circle,#414167,#282840);
-     margin-top:-80px;
-     padding-top: 60px;
-     color: #f2f2f2;
+   background:radial-gradient(circle,#414167,#282840);
+   padding-top: 40px;
+   margin-top: -55px;
+   color: #f2f2f2;
 }
 .portfolio{
   padding: 50px  0;
@@ -315,7 +328,6 @@ header{
     display: flex;
   }
   .logo {
-    height: 100%;
     background:inherit;
   }
   .toggle{
@@ -339,9 +351,10 @@ header{
     justify-content: space-between;
   }
   nav .nav_ul{
+    display: flex;  
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
+
   }
   .nav_ul li {
     -ms-flex-preferred-size: 60px;
@@ -382,6 +395,15 @@ header{
   text-align: center;
   margin-top: 50px;
 }
+.item_service span{
+  font-size: 60px;
+}
+.item_service h4{
+  font-size: 24px;
+}
+.item_service p{
+  font-size: 18px;
+}
     .about{
       display: -webkit-box;
       display: -ms-flexbox;
@@ -404,10 +426,7 @@ header{
     }
     .text{
       padding: 20px 40px;
-    }
-    #portfolio{
-      background:radial-gradient(circle,#414167,#282840);
-      padding-top: 40px;
+      font-size: 16px;
     }
   .portfolio{
     max-width:965px;
