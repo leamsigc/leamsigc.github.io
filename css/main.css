@@ -130,6 +130,7 @@ nav .nav_ul {
 /* logo */
 
 .logo {
+<<<<<<< HEAD
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -142,6 +143,20 @@ nav .nav_ul {
   background: rgba(0, 0, 0, 0.5);
   z-index: 100;
   /*//  background: #D7DADB;*/
+=======
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-pack:justify;
+  -ms-flex-pack:justify;
+  justify-content:space-between;
+  -webkit-box-align:center;
+  -ms-flex-align:center;
+  align-items:center;
+  background: rgba(0,0,0,0.5);
+  z-index: 100;
+/*//  background: #D7DADB;*/
+>>>>>>> f1890828ae4d25046516b5840d10a2f7e6bbcfb8
   padding: 10px;
 }
 
@@ -165,7 +180,11 @@ nav .nav_ul {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   padding: 10px 25px;
+<<<<<<< HEAD
   color: #6DBCDB;
+=======
+  color: #fff;
+>>>>>>> f1890828ae4d25046516b5840d10a2f7e6bbcfb8
   z-index: 100;
   cursor: pointer;
 }
@@ -295,11 +314,18 @@ header {
   padding: 10px 10px;
   font-family: 'Roboto', sans-serif;
 }
+<<<<<<< HEAD
 
 .sub_title p {
   padding: 10px 20px;
   font-weight: 300;
   font-size: 14px;
+=======
+.sub_title p{
+    padding: 10px 20px;
+    font-weight: 300;
+    font-size: 14px;
+>>>>>>> f1890828ae4d25046516b5840d10a2f7e6bbcfb8
 }
 
 .service_item {
@@ -342,6 +368,7 @@ header {
 
 
 /* ========= Portfolio section=====••• */
+<<<<<<< HEAD
 
 #about {
   margin-top: 100px;
@@ -365,6 +392,28 @@ header {
 
 .portfolio {
   padding: 50px 0;
+=======
+#about{
+    margin-top: 100px;
+    color: #f3f3f3;
+    padding-top: 50px;
+    background: #b5b5b5;
+    background-image:url(https://source.unsplash.com/P1qyEf1g0HU/1200x1200);
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    clip-path: polygon(0 0, 100% 0%, 100% 94%, 0% 100%);
+}
+#portfolio{
+     background:radial-gradient(circle,#414167,#282840);
+     margin-top:-80px;
+     padding-top: 60px;
+     color: #f2f2f2;
+}
+.portfolio{
+  padding: 50px  0;
+>>>>>>> f1890828ae4d25046516b5840d10a2f7e6bbcfb8
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -445,6 +494,7 @@ header {
   }
   .main_title {
     font-size: 35px;
+<<<<<<< HEAD
     padding: 40px;
   }
   .hero p {
@@ -497,6 +547,53 @@ header {
   .portfolio {
     max-width: 965px;
     margin: 0 auto;
+=======
+    padding: 40px;  }
+    .hero p {
+      font-size: 19px;
+      font-weight: 300;
+    }
+    .main_btn{
+      padding: 20px 40px;
+      margin-bottom: 300px;
+    }
+    .service_item .item_service{
+  width: 33%;
+  padding: 10px 5px;
+  text-align: center;
+  margin-top: 50px;
+}
+    .about{
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      max-width: 965px;
+      margin: 100px auto;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      background: inherit;
+    }
+    .img_perfil{
+      width: 300px;
+      height: 300px;
+      padding: 20px;
+      margin-left: 40px;
+      margin-top: 0;
+    }
+    .text{
+      padding: 20px 40px;
+    }
+    #portfolio{
+      background:radial-gradient(circle,#414167,#282840);
+      padding-top: 40px;
+    }
+  .portfolio{
+    max-width:965px;
+    margin:0  auto;
+>>>>>>> f1890828ae4d25046516b5840d10a2f7e6bbcfb8
     background: none;
   }
   .portfolio_item {
