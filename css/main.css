@@ -9,8 +9,8 @@
   margin: 0;
   /*font-family: 'Roboto', sans-serif;*/
   font-family: 'Open Sans', sans-serif;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+  /* -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out; */
 }
 
 
@@ -37,9 +37,7 @@ a {
   width: 100%;
   text-align: center;
   letter-spacing: 1.5px;
-  ;
   -webkit-transition: all 0.3s ease-in-out;
-  ;
   transition: all 0.3s ease-in-out;
 }
 
@@ -61,12 +59,19 @@ p {
 
 
 /* ==========nav css============  */
-
+.nav{
+  -webkit-transition:all 3s;
+  -moz-transition:all 3s;
+  -ms-transition:all 3s;
+  -o-transition: 3s;
+  transition:all 3s;
+}
 nav .nav_ul {
   display: none;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   z-index: 100;
+  opacity: 0;
   transition: all 0.5s ease-in-out;
 }
 
@@ -94,6 +99,7 @@ nav .nav_ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  opacity: 1;
 }
 .fixed{
   position: fixed;
