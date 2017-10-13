@@ -1,4 +1,4 @@
-//   for the nav mobile 
+//for the nav mobile 
 //nav bar
 const navWrapper = document.querySelector('.nav-wrapper'); 
 const ul= document.getElementById('menu_ul');

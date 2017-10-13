@@ -68,7 +68,6 @@ p {
 }
 nav .nav_ul {
   display: none;
-  opacity: 1;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   z-index: 100;
@@ -428,6 +427,7 @@ header {
     background: inherit;
   }
   header {
+    /* background-size: contain; */
     margin: 0;
     margin-top: -70px;
   }
