@@ -21,7 +21,7 @@ window.addEventListener('scroll', function(){
     let x = window.scrollY;
     if(x > 100 ){
         navWrapper.classList.add('fixed');
-       console.log(navWrapper.style.backgroundColor);
+    //    console.log(navWrapper.style.backgroundColor);
        navWrapper.style.backgroundColor='rgb(49, 49, 78)';
 
     }
@@ -33,14 +33,15 @@ window.addEventListener('scroll', function(){
 });
 
 window.addEventListener('DOMContentLoaded', ()=>{
-    console.log('hello from the console');
+    // console.log('hello from the console');
     const $nav = document.querySelector('ul[data-js="nav-bar"]');
      $nav.addEventListener('click', scrollToElement);
 });
 
 function scrollToElement(e) {
-    e.preventDefault();
     const elementToScrollTo = document.querySelector(`${e.target.getAttribute('href')}`);
+    // console.log(elementToScrollTo);
+    e.preventDefault();
     elementToScrollTo.scrollIntoView({
         behavior: 'smooth',
         block: 'start',
