@@ -1,7 +1,8 @@
 :root {
-  --main-color: #6DBCDB;
-  --secondary-color: rgba(49, 49, 78,1);
-  --font:'Open Sans',-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  --main-color: #6dbcdb;
+  --secondary-color: rgba(49, 49, 78, 1);
+  --font: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 * {
@@ -12,7 +13,6 @@
   font-family: var(--font);
   /* font-family: 'Open Sans', sans-serif; */
 }
-
 
 /* ========== html body reset========= */
 
@@ -26,7 +26,6 @@ body {
 body {
   background: #f7f7f7;
 }
-
 
 /* ========= Regular css a ========= */
 
@@ -58,20 +57,17 @@ p {
   letter-spacing: 150%;
 }
 
-
 /* ==========nav css============  */
-.nav{
-  -webkit-transition:all 3s;
-  -moz-transition:all 3s;
-  -ms-transition:all 3s;
-  -o-transition: 3s;
-  transition:all 3s;
+.nav {
+  -webkit-transition: all 3s;
+  transition: all 3s;
 }
 nav .nav_ul {
   display: none;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   z-index: 100;
+  -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 
@@ -84,11 +80,11 @@ nav .nav_ul {
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-.nav_ul .nav__link{
+.nav_ul .nav__link {
   font-weight: 700;
 }
-.nav_ul .nav__link:hover{
-  background:var(--secondary-color);
+.nav_ul .nav__link:hover {
+  background: var(--secondary-color);
 }
 .nav_ul .social {
   -ms-flex-preferred-size: 25%;
@@ -101,7 +97,7 @@ nav .nav_ul {
   display: flex;
   opacity: 1;
 }
-.fixed{
+.fixed {
   position: fixed;
   top: 0;
   left: 0;
@@ -132,7 +128,7 @@ nav .nav_ul {
   -ms-flex-preferred-size: 25%;
   flex-basis: 25%;
   background: none;
-  color: #6DBCDB;
+  color: #6dbcdb;
   z-index: 100;
 }
 
@@ -147,8 +143,8 @@ nav .nav_ul {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
   padding: 1rem 1.5rem;
-  color:var(--main-color);
-  background:transparent;
+  color: var(--main-color);
+  background: transparent;
   z-index: 100;
   cursor: pointer;
 }
@@ -157,7 +153,20 @@ nav .nav_ul {
 
 header {
   margin: -80px auto 200px;
-  background-image:linear-gradient(to bottom, rgba(133, 110, 143, 0.9),rgba(49, 49, 78,0.5)),url('../img/heroBackground.jpg');
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(133, 110, 143, 0.9)),
+      to(rgba(49, 49, 78, 0.5))
+    ),
+    url('../img/heroBackground.jpg');
+  background-image: linear-gradient(
+      to bottom,
+      rgba(133, 110, 143, 0.9),
+      rgba(49, 49, 78, 0.5)
+    ),
+    url('../img/heroBackground.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -205,7 +214,6 @@ header {
   font-size: 16px;
 }
 
-
 /* ========Main btn====== */
 
 .hero .main_btn {
@@ -213,8 +221,8 @@ header {
   background: var(--main-color);
   width: auto;
   color: #021114;
-  padding:1rem 3rem;
-  border: 1px solid #6DBCDB;
+  padding: 1rem 3rem;
+  border: 1px solid #6dbcdb;
   border-radius: 3px;
   font-weight: 900;
   font-size: 1.5rem;
@@ -226,7 +234,6 @@ header {
   background: transparent;
   color: var(--main-color);
 }
-
 
 /* *******About img ********* */
 
@@ -240,7 +247,6 @@ header {
   margin-top: 50px;
   border-radius: 50%;
 }
-
 
 /*  ===== text About me ======= */
 
@@ -325,7 +331,6 @@ header {
   font-size: 16px;
 }
 
-
 /* ========= Portfolio section=====••• */
 
 #about {
@@ -339,6 +344,7 @@ header {
   background-position: right right;
   background-size: cover;
   background-attachment: fixed;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 94%, 0% 100%);
   clip-path: polygon(0 0, 100% 0%, 100% 94%, 0% 100%);
 }
 
@@ -368,11 +374,109 @@ header {
   height: 300px;
   background: #fff;
 }
+.projects_container {
+  max-width: 1200px;
+  margin: 0 auto;
+  /* background: #2a2a2a; */
+  min-height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: var(--font), Tahoma, arial;
+}
+.item {
+  -ms-flex-preferred-size: 45%;
+  flex-basis: 45%;
+  min-width: 400px;
+  background: #f3f3f3;
+  -webkit-box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.16);
+  box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.16);
+  position: relative;
+}
+.item .bar {
+  height: 24px;
+  background: rgba(221, 221, 221, 0.9);
+  color: #6a6a6a;
+  width: 100%;
+}
+.project_title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #8a8a8a;
+  letter-spacing: -0.5px;
+}
+.window_dot:before,
+.window_dot:after {
+  content: '';
+  top: 0;
+}
 
+.window_dot,
+.window_dot:before,
+.window_dot:after {
+  height: 12px;
+  width: 12px;
+  display: inline-block;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.window_dot {
+  background: #ff5f57;
+  top: 6px;
+  left: 10px;
+}
+.window_dot:after {
+  left: 32px;
+  background: green;
+}
+
+.window_dot:before {
+  background: yellow;
+  left: 16px;
+}
+
+.project_img {
+  max-height: 50%;
+  height: 300px;
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.3)),
+      to(rgba(0, 0, 0, 0.6))
+    ),
+    url('../img/populate.png') center center no-repeat;
+  background-size: cover;
+}
+
+.two {
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.2)),
+      to(rgba(0, 0, 0, 0.6))
+    ),
+    url('../img/smartCellRepair.png') center center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)),
+    url('../img/smartCellRepair.png') center center no-repeat;
+  background-size: cover;
+}
 
 /*Media */
 
-@media (min-width:960px) {
+@media (min-width: 960px) {
   .nav-wrapper {
     /*background:#333;*/
     display: -webkit-box;
@@ -481,6 +585,8 @@ header {
     padding: 20px 40px;
     font-size: 16px;
   }
+  /**PROJECTS PORTFOLIO */
+
   .portfolio {
     max-width: 965px;
     margin: 0 auto;
