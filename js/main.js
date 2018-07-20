@@ -2,10 +2,12 @@
 //nav bar
 const navWrapper = document.querySelector('.nav-wrapper'); 
 const ul= document.getElementById('menu_ul');
+const ulSocial = document.querySelector('ul[data-js="socialIcons"]');
 const menu= document.getElementById("toggle_js");
 menu.addEventListener('click',function (e) {
     e.preventDefault();
     ul.classList.toggle('open');
+    ulSocial.classList.toggle('open');
     navWrapper.classList.add('fixed');
 });
 window.onclick = function(e){
@@ -21,7 +23,6 @@ window.addEventListener('scroll', function(){
     let x = window.scrollY;
     if(x > 100 ){
         navWrapper.classList.add('fixed');
-    //    console.log(navWrapper.style.backgroundColor);
        navWrapper.style.backgroundColor='rgb(49, 49, 78)';
 
     }
@@ -33,14 +34,12 @@ window.addEventListener('scroll', function(){
 });
 
 window.addEventListener('DOMContentLoaded', ()=>{
-    // console.log('hello from the console');
     const $nav = document.querySelector('ul[data-js="nav-bar"]');
      $nav.addEventListener('click', scrollToElement);
 });
 
 function scrollToElement(e) {
     const elementToScrollTo = document.querySelector(`${e.target.getAttribute('href')}`);
-    // console.log(elementToScrollTo);
     e.preventDefault();
     elementToScrollTo.scrollIntoView({
         behavior: 'smooth',

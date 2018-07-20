@@ -11,7 +11,6 @@
   padding: 0;
   margin: 0;
   font-family: var(--font);
-  /* font-family: 'Open Sans', sans-serif; */
 }
 
 /* ========== html body reset========= */
@@ -20,7 +19,6 @@ html,
 body {
   padding: 0;
   margin: 0;
-  /*//background:linear-gradient(160deg,skyblue , silver);*/
 }
 
 body {
@@ -220,12 +218,12 @@ header {
   margin: 40px auto;
   background: var(--main-color);
   width: auto;
-  color: #021114;
-  padding: 1rem 3rem;
+  color: var(--secondary-color);
+  padding: 1rem ;
   border: 1px solid #6dbcdb;
   border-radius: 3px;
   font-weight: 900;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
@@ -392,13 +390,14 @@ header {
   font-family: var(--font), Tahoma, arial;
 }
 .item {
-  -ms-flex-preferred-size: 45%;
-  flex-basis: 45%;
-  min-width: 400px;
+  -ms-flex-preferred-size: 90%;
+  flex-basis: 90%;
+  max-width: 400px;
   background: #f3f3f3;
   -webkit-box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.16);
   box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.16);
   position: relative;
+  margin-bottom: 1rem;
 }
 .item .bar {
   height: 24px;
@@ -535,16 +534,20 @@ header {
     margin-top: -70px;
   }
   .main_title {
-    font-size: 35px;
+    font-size: 2rem;
+    font-weight: 900;
     padding: 40px;
+    text-align: right;
   }
   .hero p {
-    font-size: 19px;
+    font-size: 1.5rem;
     font-weight: 300;
+    max-width: 60ch;
   }
-  .main_btn {
-    padding: 20px 40px;
-    margin-bottom: 300px;
+  .hero .main_btn {
+    padding: 1rem 2rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
   }
   .service_item .item_service {
     width: 33%;
