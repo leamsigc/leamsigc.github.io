@@ -473,6 +473,9 @@ header {
     url('../img/smartCellRepair.png') center center no-repeat;
   background-size: cover;
 }
+.portfolio_description{
+  text-transform: uppercase;
+}
 
 /*Media */
 
