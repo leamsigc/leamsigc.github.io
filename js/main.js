@@ -1,41 +1,40 @@
-//for the nav mobile 
-//nav bar
-const navWrapper = document.querySelector('.nav-wrapper'); 
-const ul= document.getElementById('menu_ul');
-const ulSocial = document.querySelector('ul[data-js="socialIcons"]');
-const menu= document.getElementById("toggle_js");
-menu.addEventListener('click',function (e) {
+const navWrapper = document.querySelector('.nav-wrapper');
+const ul = document.querySelector('[data-js="nav-bar"]');
+const ulSocial = document.querySelector('[data-js="socialIcons"]');
+const menu = document.querySelector('[data-js="toggle_js"]');
+menu & menu.addEventListener('click', function (e) {
     e.preventDefault();
     ul.classList.toggle('open');
     ulSocial.classList.toggle('open');
     navWrapper.classList.add('fixed');
 });
-window.onclick = function(e){
-    if(e.target.className === 'nav__link' || e.target.className == 'toggle'){
-        if(e.target.className === 'nav__link'){
+window.onclick = function (e) {
+    if (e.target.className === 'nav__link' || e.target.className == 'toggle') {
+        if (e.target.className === 'nav__link') {
             ul.classList.remove('open');
+            ulSocial.classList.remove('open');
         }
-    }else{
+    } else {
         ul.classList.remove('open');
+        ulSocial.classList.remove('open');
     }
 }
-window.addEventListener('scroll', function(){
+window.addEventListener('scroll', function () {
     let x = window.scrollY;
-    if(x > 100 ){
+    if (x > 100) {
         navWrapper.classList.add('fixed');
-       navWrapper.style.backgroundColor='rgb(49, 49, 78)';
+        navWrapper.style.backgroundColor = 'rgb(49, 49, 78)';
 
-    }
-    else{
+    } else {
         navWrapper.classList.remove('fixed');
-        navWrapper.style.backgroundColor='none';
-        
+        navWrapper.style.backgroundColor = 'none';
+
     }
 });
 
-window.addEventListener('DOMContentLoaded', ()=>{
-    const $nav = document.querySelector('ul[data-js="nav-bar"]');
-     $nav.addEventListener('click', scrollToElement);
+window.addEventListener('DOMContentLoaded', () => {
+    const $nav = document.querySelector('[data-js="nav-bar"]');
+    $nav.addEventListener('click', scrollToElement);
 });
 
 function scrollToElement(e) {

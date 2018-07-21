@@ -111,7 +111,7 @@ nav .nav_ul {
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
+  justify-content: space-around;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -143,6 +143,7 @@ nav .nav_ul {
   padding: 1rem 1.5rem;
   color: var(--main-color);
   background: transparent;
+  text-align-last: left;
   z-index: 100;
   cursor: pointer;
 }
