@@ -220,7 +220,7 @@ header {
   background: var(--main-color);
   width: auto;
   color: var(--secondary-color);
-  padding: 1rem ;
+  padding: 1rem;
   border: 1px solid #6dbcdb;
   border-radius: 3px;
   font-weight: 900;
@@ -249,10 +249,9 @@ header {
 
 /*  ===== text About me ======= */
 
-
 #service {
   padding-bottom: 4rem;
-
+  background: #fff;
 }
 
 .service {
@@ -281,7 +280,7 @@ header {
   font-weight: 300;
   font-size: 1rem;
 }
-.text p{
+.text p {
   width: 100%;
   margin: 40px auto;
   padding: 1rem 2rem;
@@ -327,7 +326,7 @@ header {
   font-size: 16px;
 }
 /* service__img */
-.service__img  {
+.service__img {
   flex: 1 1 0;
   height: 200px;
   background: #fff;
@@ -479,7 +478,7 @@ header {
     url('../img/smartCellRepair.png') center center no-repeat;
   background-size: cover;
 }
-.portfolio_description{
+.portfolio_description {
   text-transform: uppercase;
 }
 
@@ -574,7 +573,7 @@ header {
   .item_service p {
     font-size: 18px;
   }
-  .sub_title p{
+  .sub_title p {
     font-size: 1.5rem;
   }
   .about {
