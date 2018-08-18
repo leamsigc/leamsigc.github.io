@@ -22,7 +22,7 @@ body {
 }
 
 body {
-  background: #f7f7f7;
+  background: #fff;
 }
 
 /* ========= Regular css a ========= */
@@ -92,10 +92,20 @@ nav .nav_ul {
   height: 40px;
 }
 .social .nav__link {
+  padding: 0.5rem;
   display: block;
   height: 100%;
   width: 100%;
-  padding: 0;
+}
+.open.nav_ul[data-js='socialIcons'] {
+  flex-basis: 30%;
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+  padding: 1rem;
+  background: var(--secondary-color);
 }
 #icon {
   display: block;
