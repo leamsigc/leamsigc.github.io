@@ -422,7 +422,7 @@ header {
 .item {
   -ms-flex-preferred-size: 90%;
   flex-basis: 90%;
-  max-width: 400px;
+  max-width: 450px;
   background: #f3f3f3;
   -webkit-box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.16);
   box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.16);
@@ -443,6 +443,7 @@ header {
   line-height: 24px;
   color: #8a8a8a;
   letter-spacing: -0.5px;
+  cursor: pointer;
 }
 .window_dot:before,
 .window_dot:after {
@@ -485,7 +486,7 @@ header {
       from(rgba(0, 0, 0, 0.3)),
       to(rgba(0, 0, 0, 0.6))
     ),
-    url('../img/populate.png') center center no-repeat;
+    url('../img/modal.png') center no-repeat;
   background-size: cover;
 }
 
@@ -500,6 +501,46 @@ header {
     url('../img/smartCellRepair.png') center center no-repeat;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)),
     url('../img/smartCellRepair.png') center center no-repeat;
+  background-size: cover;
+}
+
+.sum-game {
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.2)),
+      to(rgba(0, 0, 0, 0.6))
+    ),
+    url('../img/SumGame.png') center center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)),
+    url('../img/SumGame.png') center center no-repeat;
+  background-size: cover;
+}
+.canvas-game {
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.2)),
+      to(rgba(0, 0, 0, 0.6))
+    ),
+    url('../img/CanvasGame.png') center center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)),
+    url('../img/CanvasGame.png') center center no-repeat;
+  background-size: cover;
+}
+.hello-100 {
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.2)),
+      to(rgba(0, 0, 0, 0.6))
+    ),
+    url('../img/100Hello.png') center center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)),
+    url('../img/100Hello.png') center center no-repeat;
   background-size: cover;
 }
 .portfolio_description {
