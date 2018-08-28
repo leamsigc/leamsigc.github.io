@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>404 page</title>
+    <style type="text/css">
+        @import url(https://fonts.googleapis.com/css?family=Raleway:700);
+        :root{
+            --main-color: #EE4B5E;
+            --secondary-color:#342643;
+            --bg-color:#1FA9D6;
+        }
+        *,
+        *:after,
+        *:before{
+            padding: 0;
+            margin: 0;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        .text-wrapper{
+            background: var(--secondary-color);
+            min-height: 100vh;
+            font-family: 'Raleway', sans-serif;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .title{
+            font-size: 6rem;
+            font-weight: 900;
+            color:var(--main-color);
+        }
+        .sub-title{
+            padding: 1rem 0.5rem;
+            max-width:60ch;
+            font-weight: 300;
+            color:var(--bg-color);
+            font-size: 1.5rem;
+        }
+        .button{
+            display:block;
+            /*background: var(--main-color);*/
+            border: 2px solid var(--main-color);
+            padding: 1rem 2rem ;
+            text-decoration: none;
+            color:var(--main-color);
+            cursor: pointer;
+            border-radius:10px;
+            box-shadow: 5px 5px 10px var(--secondary-color);
+            transition:all 0.5s ease-in-out;
+        }
+        .button:hover{
+            transform:scale(1.1);
+            border-color: var(--bg-color);
+            color:var(--bg-color);
+        }
+    </style>
+</head>
+<body>
+    <div class="text-wrapper">
+        <div class="title" data-content='404'>
+            404
+        </div>
+        <div class="sub-title">
+            Oops, you're a litle lost my friend and the page you're looking for doesn't exist.
+        </div>
+        <div class="buttons">
+            <a href="https://leamsigc.com" class="button">Go to HomePage</a>
+        </div>
+    </div>
+</body>
+</html>
