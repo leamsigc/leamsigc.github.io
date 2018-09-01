@@ -107,7 +107,7 @@ nav .nav_ul {
   padding: 1rem;
   background: var(--secondary-color);
 }
-#icon {
+.icon {
   display: block;
   height: 100%;
   width: 100%;
