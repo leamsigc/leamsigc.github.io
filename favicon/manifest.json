@@ -1,19 +1,114 @@
 {
     "name": "leamsigc",
-    "short_name":"LGC",
+    "short_name": "LGC",
     "icons": [
         {
-            "src": "/android-chrome-192x192.png",
+            "src": "/images/android-chrome-192x192.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "/android-chrome-512x512.png",
+            "src": "/images/android-chrome-512x512.png",
             "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/faf1c872-d132-1959-4239-0fbfb4beab96.webPlatform.png",
+            "sizes": "44x44",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/6d445bac-9ac2-f6e6-c47c-4d5059835e43.webPlatform.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/windows10/SplashScreen.scale-200.png.png",
+            "sizes": "1240x600",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/145163bb-a0d5-f602-ca7c-bfaa7712296f.webPlatform.png",
+            "sizes": "300x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/60c105d9-f68d-c01d-d7e4-48f35cb51da9.webPlatform.png",
+            "sizes": "150x150",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/4cb4e18f-ae35-c087-57aa-beb12873cff8.webPlatform.png",
+            "sizes": "88x88",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/a493efd1-d588-bdf0-f0ad-28e2e19a86bd.webPlatform.png",
+            "sizes": "24x24",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/aaed401e-1b0c-7a57-7e57-c875b1fc216f.webPlatform.png",
+            "sizes": "50x50",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/0a20675b-a852-3823-2d7e-daa6e401f2e4.webPlatform.png",
+            "sizes": "620x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/86e7d545-4e87-8851-6d9c-2db5ce970712.webPlatform.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/276d7450-607f-8f66-f312-1371173f5f95.webPlatform.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/7d9700a2-8e60-0d2b-550b-c4aeb46134d7.webPlatform.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/84444b43-1360-7f2c-f3f1-cd011ad67893.webPlatform.png",
+            "sizes": "36x36",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/ios/ios-appicon-1024-1024.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/a30ae4c7-4308-0825-1552-b23f34447f09.webPlatform.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/3b5e94d4-90cc-048e-7a14-f4486b4df593.webPlatform.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/390cfc1c-4eee-68e6-1c7b-b5eccc4a1802.webPlatform.png",
+            "sizes": "120x120",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/5e283586-7657-5f55-4d5c-e59fe7f49886.webPlatform.png",
+            "sizes": "76x76",
             "type": "image/png"
         }
     ],
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
-    "display": "standalone"
+    "display": "standalone",
+    "start_url": "https://leamsigc.com/",
+    "lang": "",
+    "orientation": "any",
+    "description": "Ismael garcia canseco Portfolio web I do  from design to mobile responsive website or an eStore, including web Api’s to web and mobile applications.",
+    "scope": "/"
 }
