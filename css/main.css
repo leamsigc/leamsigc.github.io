@@ -487,9 +487,11 @@ header {
 	background: yellow;
 	left: 16px;
 }
-.top10 {
-	max-height: 50%;
+.project_img {
 	height: 300px;
+	max-height: 50%;
+}
+.top10 {
 	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.6))),
 		url('../img/today.png') center no-repeat;
 	background-size: cover;
