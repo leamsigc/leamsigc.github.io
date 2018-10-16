@@ -98,10 +98,21 @@ nav .nav_ul {
 	width: 100%;
 }
 .open.nav_ul[data-js='socialIcons'] {
+	-ms-flex-preferred-size: 30%;
 	flex-basis: 30%;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 
+	-webkit-box-pack: center;
+
+	-ms-flex-pack: center;
+
 	justify-content: center;
+
+	-webkit-box-align: center;
+
+	-ms-flex-align: center;
 
 	align-items: center;
 	padding: 1rem;
@@ -265,6 +276,7 @@ header {
 	margin-top: 10px;
 	border-radius: 50%;
 	/* float: left; */
+	-webkit-shape-outside: circle(163px at 50% 50%);
 	shape-outside: circle(163px at 50% 50%);
 }
 
@@ -349,9 +361,12 @@ header {
 }
 /* service__img */
 .service__img {
+	-webkit-box-flex: 1;
+	-ms-flex: 1 1 0px;
 	flex: 1 1 0;
 	height: 200px;
 	background: #fff;
+	-ms-flex-preferred-size: 25%;
 	flex-basis: 25%;
 }
 .mobile-friend {
@@ -458,7 +473,6 @@ header {
 	border-radius: 50%;
 	position: absolute;
 }
-
 .window_dot {
 	background: #ff5f57;
 	top: 6px;
@@ -473,12 +487,11 @@ header {
 	background: yellow;
 	left: 16px;
 }
-
-.project_img {
+.top10 {
 	max-height: 50%;
 	height: 300px;
 	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.6))),
-		url('../img/modal.png') center no-repeat;
+		url('../img/today.png') center no-repeat;
 	background-size: cover;
 }
 
@@ -559,10 +572,21 @@ header {
 		flex-grow: 1;
 	}
 	nav .nav_ul[data-js='socialIcons'] {
+		-ms-flex-preferred-size: 30%;
 		flex-basis: 30%;
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
 
+		-webkit-box-pack: center;
+
+		-ms-flex-pack: center;
+
 		justify-content: center;
+
+		-webkit-box-align: center;
+
+		-ms-flex-align: center;
 
 		align-items: center;
 	}
