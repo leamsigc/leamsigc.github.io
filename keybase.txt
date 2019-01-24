@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/leamsigc
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://leamsigc.com
+  * I am leamsigc (https://keybase.io/leamsigc) on keybase.
+  * I have a public key ASBOMeuYVg6aIKq-320b4zSDhJWeUc1I8GJky_o7-ccYHQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01204937003350d3edbfeaf64868c190d03d4ff3a1f6ebbceba4dc55d492a9af3ab90a",
+      "host": "keybase.io",
+      "kid": "01204e31eb98560e9a20aabedf6d1be3348384959e51cd48f06264cbfa3bf9c7181d0a",
+      "uid": "0589021b701bba1f058c6aba51ae8a19",
+      "username": "leamsigc"
+    },
+    "merkle_root": {
+      "ctime": 1548359567,
+      "hash": "6f597604e1c71afd04ed6fca1919a3e6d8ecdbdde68c8a8792c3313120795cc4f76cdd7fe3dffb733c30ec639b243ae4be854fb05740d105716df2e8cc451c4c",
+      "hash_meta": "259070e7325cb6efe606574fec0da2323b9d9bd471246234c2d9cfcd74fa0aa9",
+      "seqno": 4605821
+    },
+    "service": {
+      "entropy": "DerTtuaButy6GSDKtwnIXynp",
+      "hostname": "leamsigc.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.13.2"
+  },
+  "ctime": 1548359573,
+  "expire_in": 504576000,
+  "prev": "098c753c885acd752357a6c13f3da2c87ceef4b297628e6b7b4c7d877dd18dac",
+  "seqno": 18,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgTjHrmFYOmiCqvt9tG+M0g4SVnlHNSPBiZMv6O/nHGB0Kp3BheWxvYWTESpcCEsQgCYx1PIhazXUjV6bBPz2iyHzu9LKXYo5re0x9h33RjazEIMdRH95/ywABpBoDr404Ddu66S/KOBJGb1b7whJcc3uEAgHCo3NpZ8RANO+OUgMdxCQzeV4Hb67yIJYebtuvUa/++9yBG/xuAaFqoXEvQMMJy7tr+Oa+8D1sQOOPPZB1HX1A9CDs0WfRBahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIF3ehPwIRB7Y1u/ikapb4o1uig5B8XCk2BYQi4Kd6HUjo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/leamsigc
+
+==================================================================
